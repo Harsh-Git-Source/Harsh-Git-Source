@@ -86,7 +86,7 @@ pgdba-assistant/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/Adityaraj142857/pgdba-assistant.git
+git clone [https://github.com/Harsh-Git-Source/Harsh-Git-Source/tree/main/PGDBA-Assistant]
 cd pgdba-assistant
 ```
 
