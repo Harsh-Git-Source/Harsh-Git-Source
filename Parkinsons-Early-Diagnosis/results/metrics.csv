@@ -1,0 +1,9 @@
+model,input,accuracy,source
+Random Forest,143 features,0.9156,reported project result
+Random Forest,Top 30 features,0.9023,reported project result
+XGBoost,143 features,0.9220,reported project result
+XGBoost,Top 30 features,0.9141,reported project result
+ANN,Top 30 features,0.9201,reported project result
+FLAN-T5 + LoRA,143 questions,0.8341,reported project result
+FLAN-T5 + LoRA,Top 30 questions,0.8750,reported project result
+FLAN-T5 end-to-end,Complete feature set,0.9449,reported project result

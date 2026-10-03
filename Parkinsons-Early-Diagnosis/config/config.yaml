@@ -1,0 +1,23 @@
+project:
+  name: parkinsons-early-diagnosis-ml-llm
+  seed: 42
+
+data:
+  raw_dir: data/raw
+  processed_dir: data/processed
+  target_column: COHORT_OL
+  patient_id_columns: [PATNO, Patient ID, patient_id]
+  event_id_columns: [EVENT_ID, Event ID, event_id]
+  screening_values: [Screening, screening]
+  missing_threshold: 0.50
+  top_k_features: 30
+
+models:
+  flan_t5_name: google/flan-t5-small
+  max_length: 512
+  dropout: 0.10
+
+training:
+  ml_test_size: 0.20
+  llm_split: [0.75, 0.15, 0.15]
+  random_state: 42

@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data and model artifacts
+data/raw/*
+data/processed/*
+models/*.bin
+models/*.pt
+models/*.pth
+models/*.safetensors
+models/*.json
+
+# Keep placeholders
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!models/.gitkeep
+
+# Outputs
+results/generated/*
+*.log
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/

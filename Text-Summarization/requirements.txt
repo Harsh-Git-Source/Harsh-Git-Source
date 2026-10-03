@@ -1,0 +1,14 @@
+torch
+transformers
+peft
+datasets
+evaluate
+rouge_score
+sacrebleu
+nltk
+contractions
+tqdm
+numpy
+pandas
+jupyter
+pyyaml

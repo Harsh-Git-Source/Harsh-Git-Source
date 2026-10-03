@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model/data artifacts
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+*.pkl
+*.zip
+*.npy
+*.npz
+data/
+models/
+checkpoints/
+flan_t5_lora_cnn_dm/
+
+# GloVe
+glove*.txt
+glove*.zip
+
+# Logs / outputs
+logs/
+runs/
+wandb/
+*.log
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+
+# Secrets
+.env
+.env.*

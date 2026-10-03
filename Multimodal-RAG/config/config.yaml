@@ -1,0 +1,18 @@
+app:
+  title: "DocuMind AI"
+  subtitle: "Multimodal Document Intelligence & RAG"
+  max_upload_mb: 50
+
+models:
+  embedding: "sentence-transformers/all-MiniLM-L6-v2"
+  groq: "llama-3.3-70b-versatile"
+  gemini: "gemini-3.8-flash"
+
+retrieval:
+  top_k: 6
+  collection_name: "multimodal_rag"
+
+parsing:
+  strategy: "hi_res"
+  infer_table_structure: true
+  extract_images: true

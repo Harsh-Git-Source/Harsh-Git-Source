@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Runtime data
+data/uploads/*
+data/extracted_images/*
+data/chroma/*
+!data/uploads/.gitkeep
+!data/extracted_images/.gitkeep
+!data/chroma/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Logs
+*.log
+logs/
+
+# Model caches
+.cache/
+huggingface_cache/
+
+# Test / coverage
+.coverage
+htmlcov/
